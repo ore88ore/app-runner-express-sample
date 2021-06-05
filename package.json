@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node app.js"
+    "dev": "docker-compose -f local/docker-compose.yml up -d",
+    "dev-down": "docker-compose -f local/docker-compose.yml down"
   },
   "author": "",
   "license": "ISC",
